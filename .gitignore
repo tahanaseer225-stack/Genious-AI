@@ -1,0 +1,168 @@
+# ==============================
+# Environment & Secret Files
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+secrets.toml
+
+
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+
+# ==============================
+# Streamlit
+# ==============================
+
+.streamlit/
+
+
+# ==============================
+# Database Files
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# If your database has a specific name
+business.db
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+# VS Code settings
+*.code-workspace
+
+
+# ==============================
+# Operating System Files
+# ==============================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+
+# ==============================
+# Build / Distribution
+# ==============================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+pip-wheel-metadata/
+
+
+# ==============================
+# Coverage / Testing
+# ==============================
+
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+
+# ==============================
+# Type Checking
+# ==============================
+
+.mypy_cache/
+.pyre/
+.pytype/
+
+
+# ==============================
+# Local Project Files
+# ==============================
+
+*.local
+*.cache
+.cache/
+
+
+# ==============================
+# Backup Files
+# ==============================
+
+*.orig
+*.rej
+
+
+# ==============================
+# Security
+# ==============================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
